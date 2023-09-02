@@ -7,7 +7,7 @@
     @apply w-full pt-[1.5rem] pb-[1.08rem] pl-[1.13rem] pr-[1.25rem] flex justify-between lg:p-0 h-full;
   }
   .hero {
-    @apply w-full h-[18.59rem] lg:h-[44.38rem] bg-blue-400 md:bg-blue-900;
+    @apply pt-[2.13rem] pl-[1.87rem] w-full h-[18.59rem] md:bg-center lg:h-[44.38rem] bg-[url('./assets/mobile-showcase.png')] w-full  bg-no-repeat bg-cover bg-left-top md:bg-[url('./assets/desktop-showcase.png')];
   }
 
   .link {

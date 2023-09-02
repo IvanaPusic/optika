@@ -45,17 +45,10 @@ export default {
       large: [
         '1.125rem',
         {
-          lineHeight: '1.4625rem',
           fontWeight: '400',
         },
       ],
-      xl: [
-        '1.25rem',
-        {
-          lineHeight: '1.5rem',
-          fontWeight: '400',
-        },
-      ],
+      xl: ['1.25rem'],
       '2xl': [
         '1.5rem',
         {
@@ -71,13 +64,7 @@ export default {
         },
       ],
       '4xl': ['3.125rem', '3.5rem'],
-      '5xl': [
-        '3.75rem',
-        {
-          lineHeight: 'normal',
-          fontWeight: '400',
-        },
-      ],
+      '5xl': ['3.75rem'],
       '6xl': ['5.625rem', '5.625rem'],
     },
     extend: {
