@@ -1,7 +1,18 @@
+import { useState } from 'react';
+import { MobileNavigation, Navigation } from './components';
+import { Home } from './pages';
 function App() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const openMenu = () => setIsMenuOpen(true);
+
+  const closeMenu = () => setIsMenuOpen(false);
+
   return (
     <>
-      <h1 className='text-6xl text-blue-700 text-center'>Optika</h1>
+      {isMenuOpen && <MobileNavigation closeMenu={closeMenu} />}
+      <Navigation openMenu={openMenu} />
+      <Home />
     </>
   );
 }

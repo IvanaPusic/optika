@@ -1,3 +1,7 @@
+import facebook from './assets/facebook.svg';
+import instagram from './assets/instagram.svg';
+import youtube from './assets/youtube.svg';
+
 export const links = [
   {
     path: '/katalog',
@@ -14,5 +18,17 @@ export const links = [
   {
     path: '/provjera-vida',
     name: 'besplatna provjera vida',
+  },
+];
+
+export const socials = [
+  {
+    name: facebook,
+  },
+  {
+    name: instagram,
+  },
+  {
+    name: youtube,
   },
 ];

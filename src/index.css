@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .navigation {
+    @apply w-full pt-[1.5rem] pb-[1.08rem] pl-[1.13rem] pr-[1.25rem] flex justify-between lg:p-0 h-full;
+  }
+  .hero {
+    @apply w-full h-[18.59rem] lg:h-[44.38rem] bg-blue-400 md:bg-blue-900;
+  }
+
+  .link {
+    @apply text-secondary uppercase hover:text-primary pb-[2.06rem];
+  }
+}

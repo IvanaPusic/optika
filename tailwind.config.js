@@ -92,6 +92,7 @@ export default {
         'medium-gray': '#3A3A3A',
         'gray-black': '#2b2b2b',
         'muted-gray': '#2A2A2A',
+        yellow: ' #FFEB04',
       },
     },
   },
