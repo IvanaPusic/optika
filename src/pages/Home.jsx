@@ -2,7 +2,7 @@ import { Hero, Slider } from '../components';
 
 const Home = () => {
   return (
-    <section>
+    <section className='relative'>
       {/* -- Hero -- */}
       <Hero />
       {/* Slider */}
