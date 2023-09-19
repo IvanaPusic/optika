@@ -7,7 +7,6 @@ export default {
         '0.675rem',
         {
           lineHeight: 'normal',
-          letterSpacing: '0.1125rem',
           fontWeight: '400',
         },
       ],
@@ -72,6 +71,7 @@ export default {
         primary: '#4CB5C3',
         secondary: '#465160',
         dark: '#212020',
+        'medium-blue': '#035676',
         'dark-blue': '#06698F',
         brown: '#4A3D0B',
         gray: '#464646',
@@ -80,6 +80,7 @@ export default {
         'gray-black': '#2b2b2b',
         'muted-gray': '#2A2A2A',
         yellow: ' #FFEB04',
+        'dark-yellow': '#F5D350',
       },
     },
   },

@@ -11,10 +11,8 @@ const Hero = () => {
         </h1>
       </div>
 
-      <div className='hidden md:block mt-[2rem] lg:mt-[20.62rem] lg:ml-[5.12rem]'>
-        <p className='text-white font-light lg:font-normal uppercase text-base lg:text-xl leading-normal tracking-[0.3125rem] font-normal'>
-          božićna akcija
-        </p>
+      <div className='hidden md:block mt-[2rem] lg:mt-[13.25rem] lg:ml-[5.12rem]'>
+        <p className='action'>božićna akcija</p>
         <h1 className='text-3xl lg:text-6xl flex flex-col text-white lg:leading-[5.625rem]'>
           <span className='font-normal'>ne propustite</span>
           <span className='font-bold'>akciju za božić</span>
