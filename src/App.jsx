@@ -1,20 +1,24 @@
-import { useState } from 'react';
-import { MobileNavigation, Navigation } from './components';
-import { Home } from './pages';
+import {
+  Route,
+  RouterProvider,
+  createHashRouter,
+  createRoutesFromElements,
+} from 'react-router-dom';
+import RootLayout from './layout/RootLayout';
+import { Action, Catalog, Home, Outlet, SightCheck } from './pages';
 function App() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const openMenu = () => setIsMenuOpen(true);
-
-  const closeMenu = () => setIsMenuOpen(false);
-
-  return (
-    <>
-      {isMenuOpen && <MobileNavigation closeMenu={closeMenu} />}
-      <Navigation openMenu={openMenu} />
-      <Home />
-    </>
+  const router = createHashRouter(
+    createRoutesFromElements(
+      <Route path='/' element={<RootLayout />}>
+        <Route index element={<Home />} />
+        <Route path='katalog' element={<Catalog />} />
+        <Route path='action' element={<Action />} />
+        <Route path='outlet' element={<Outlet />} />
+        <Route path='provjera-vida' element={<SightCheck />} />
+      </Route>
+    )
   );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
