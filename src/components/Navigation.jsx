@@ -1,3 +1,4 @@
+import { HashLink } from 'react-router-hash-link';
 import hamburger from '../assets/hamburger.svg';
 import logo from '../assets/logo.svg';
 import search from '../assets/search.svg';
@@ -36,10 +37,9 @@ const Navigation = ({ openMenu }) => {
                   key={link.name}
                   className=' pb-[2.06rem] hover:border-b-2 hover:border-b-yellow  '
                 >
-                  {/* <Link to={link.path}>{link.name}</Link> */}
-                  <a className='link' href={link.path}>
+                  <HashLink className='link' to={link.path}>
                     {link.name}
-                  </a>
+                  </HashLink>
                 </li>
               );
             })}

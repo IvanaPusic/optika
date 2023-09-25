@@ -1,4 +1,5 @@
 import { GrClose } from 'react-icons/gr';
+import { HashLink } from 'react-router-hash-link';
 import { links } from '../data';
 
 const MobileNavigation = ({ closeMenu }) => {
@@ -15,9 +16,9 @@ const MobileNavigation = ({ closeMenu }) => {
         {links.map((link) => {
           return (
             <li className='mobile-nav-link' key={link.name}>
-              <a className='link' href={link.path}>
+              <HashLink className='link' to={link.path} smooth>
                 {link.name}
-              </a>
+              </HashLink>
             </li>
           );
         })}
