@@ -11,19 +11,19 @@ import video2 from './assets/video-2.png';
 import video3 from './assets/video-3.png';
 export const links = [
   {
-    path: '/katalog',
+    path: '/#katalog',
     name: 'katalog',
   },
   {
-    path: '/akcije',
+    path: '/#akcije',
     name: 'akcije',
   },
   {
-    path: '/outlet',
+    path: '/#outlet',
     name: 'outlet',
   },
   {
-    path: '/provjera-vida',
+    path: '/#provjera-vida',
     name: 'besplatna provjera vida',
   },
 ];
