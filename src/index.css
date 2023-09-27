@@ -77,7 +77,7 @@
   }
 
   .mobile-app-img {
-    @apply xl:absolute z-20 xl:right-[5.5rem] xl:-top-20 xl:w-[36.0625rem] xl:h-[45.75rem] lg:min-h-[30.9375rem] lg:max-w-[24.375rem] lg:pr-[5rem];
+    @apply xl:absolute z-20 xl:right-[5.5rem] xl:-top-20 xl:w-[36.0625rem] xl:h-[45.75rem] lg:min-h-[30.9375rem] lg:min-w-[24.375rem] lg:pr-[5rem];
   }
 
   /* Video section */
